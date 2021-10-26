@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -aArv --delete --partial --stats --progress --no-perms --exclude 'local-config.php' --exclude 'wp-load.php' --exclude '.git/' --exclude '.gitignore' --exclude '.htaccess' --exclude "README.md" --no-o --no-g --no-perms /home/nephty/githup/ennvaweb2/ /var/www/html/wordpress/
